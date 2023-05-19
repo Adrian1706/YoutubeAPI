@@ -4,7 +4,7 @@ async function search() {
 const options = {
     method: 'GET',
     headers: {
-        'X-RapidAPI-Key': '4d3abdd95amsh42b11a056be5dccp19703cjsn96a51d54275a',
+        'X-RapidAPI-Key': '83d73f277emshc25c54d98149f6dp16de8bjsn9eada14faf46',
 		'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
     }
 };
@@ -75,7 +75,7 @@ async function comments(id) {
     const url = `https://youtube138.p.rapidapi.com/video/comments/?id=${id}&hl=es&gl=US`;
     const options = {
         headers: {
-        'X-RapidAPI-Key': '4d3abdd95amsh42b11a056be5dccp19703cjsn96a51d54275a',
+        'X-RapidAPI-Key': '83d73f277emshc25c54d98149f6dp16de8bjsn9eada14faf46',
 		'X-RapidAPI-Host': 'youtube138.p.rapidapi.com'
         }
     };
